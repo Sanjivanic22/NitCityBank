@@ -1,0 +1,15 @@
+package com.spring.Collection;
+
+import java.util.List;
+import java.util.Set;
+
+public class Employee {
+private int id;
+private List<String> phones;
+private Set<String> address;
+public Employee() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
+}

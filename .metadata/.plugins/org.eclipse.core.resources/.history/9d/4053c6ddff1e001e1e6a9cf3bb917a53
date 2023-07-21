@@ -1,0 +1,11 @@
+package com.nt.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller//for declaring class as controller
+public class HomeController {
+	@RequestMapping("/home")
+public String home() {
+	return "home";
+}
+}

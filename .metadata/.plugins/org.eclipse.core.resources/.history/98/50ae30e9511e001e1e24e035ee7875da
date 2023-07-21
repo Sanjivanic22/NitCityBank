@@ -1,0 +1,10 @@
+we can do the auwing in two ways
+by xml configuration
+there are mode are available
+no
+byname
+bytype 
+by constructor
+
+by annotataion 
+@Autowired

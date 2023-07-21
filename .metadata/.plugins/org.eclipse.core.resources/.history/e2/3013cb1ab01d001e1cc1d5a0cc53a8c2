@@ -1,0 +1,25 @@
+package com.srpingcore.LifeCycleMethod;
+
+public class TestExample {
+private String subject;
+
+public TestExample() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
+public String getSubject() {
+	return subject;
+}
+
+public void setSubject(String subject) {
+	this.subject = subject;
+}
+
+@Override
+public String toString() {
+	return "TestExample [subject=" + subject + "]";
+}
+
+
+}

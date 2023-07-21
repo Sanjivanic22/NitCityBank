@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:Context="http://www.springframework.org/schema/Context"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/beans/spring-context.xsd">
+ <bean class="com.nt.main.Address" name="address1">
+ <property name="street" value="Temp1 street"/>
+ <property name="city" value="pune"/>
+ </bean>
+  <!-- <bean class="com.nt.main.Address" name="address2">
+ <property name="street" value="Temp street"/>
+ <property name="city" value="Delhi"/>
+ </bean> -->
+ <!-- <bean class="com.nt.main.Employee" name="emp" autowire="byName"/> -->
+ <bean class="com.nt.main.Employee" name="emp" autowire="byType"/>
+ </beans>
+ 
+ 

@@ -1,0 +1,5 @@
+package com.nt.main;
+
+public class Address {
+String street;
+String city;

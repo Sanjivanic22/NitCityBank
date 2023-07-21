@@ -1,0 +1,8 @@
+package com.nt.standaloneCollection;
+
+import java.util.List;
+
+public class OPerson {
+private List<String> friends;
+
+}

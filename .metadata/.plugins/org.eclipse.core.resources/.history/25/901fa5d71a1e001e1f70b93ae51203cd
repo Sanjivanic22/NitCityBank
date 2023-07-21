@@ -1,0 +1,16 @@
+package com.poc.app.collections;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		
+		
+		Stream<String> names = Stream.of("amit","nikhil","sanjvni","amol","Akshay");
+		
+		List<String> newList = names.filter(name-> name.startsWith("a")).collect(Collectors.toList());
+	}
+}

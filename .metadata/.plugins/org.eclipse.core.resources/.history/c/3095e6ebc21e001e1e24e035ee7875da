@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	
+	<bean class="com.nt.standaloneCollection.Person"  name="person">
+	
+	
+	<property name="friends">
+	<list>
+	<value>5648789298</value>
+	<value>789090134</value>
+	<value>908766589</value>
+	</list>
+	</property>
+	<property name="addresses">
+	<set>
+	<value>Mumbai</value>
+	<value>Pune</value>
+	</set>
+	</property>
+	<property name="courses">
+	<map>
+	<entry key="Java" value="2 months"/>
+	<entry key="python" value="1"/>
+	</map>
+	
+	</property>
+	<property name="props">
+	<props>
+	<prop key="name">sanju</prop>
+	<prop key="profession">Java developer</prop>
+	
+	</props>
+	
+	</property>
+	</bean>
+	</beans>		
+			
+			
+			

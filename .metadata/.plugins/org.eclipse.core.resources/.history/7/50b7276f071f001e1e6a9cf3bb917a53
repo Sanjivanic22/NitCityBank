@@ -1,0 +1,9 @@
+package com.nt.entity;
+
+import java.util.Date;
+
+public class Todo {
+private String todotitle;
+private String todoContent;
+private Date todoDate;
+}

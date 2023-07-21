@@ -1,0 +1,12 @@
+package com.poc.app.collections;
+
+import java.util.stream.Stream;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		
+		
+		Stream.of("amit","nikhil","sanjvni","amol","Akshay");
+	}
+}

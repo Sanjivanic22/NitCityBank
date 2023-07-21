@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:Context="http://www.springframework.org/schema/Context"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/beans/spring-context.xsd">
+ 
+ <!-- <context:annotation-config/> -->
+	<!-- <bean class="com.srpingcore.LifeCycleMethod.Samosa"  name="samosa" init-method="init" destroy-method="destroy">
+	<property name="price" value="10"/>
+	</bean> -->
+	<!-- <bean class="com.srpingcore.LifeCycleMethod.Pepsi" name="p1">
+	<property name="price" value="20"></property>
+	</bean> -->
+	<bean class="com.srpingcore.LifeCycleMethod.TestExample" name="test">
+	
+	<property name="subject" value="Java"/>
+	</bean>
+	
+	<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+	</beans>

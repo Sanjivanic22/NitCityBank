@@ -1,0 +1,14 @@
+package com.spring.Collection;
+
+import java.util.List;
+
+public class Employee {
+private int id;
+private List<String> phones;
+private Float sal;
+public Employee() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
+}
